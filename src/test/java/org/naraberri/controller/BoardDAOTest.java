@@ -104,7 +104,7 @@ public class BoardDAOTest {
 	}
 
 	@Test
-	public void    () throws Exception {
+	public void testDynamic1() throws Exception {
 
 		SearchCriteria cri = new SearchCriteria();
 		cri.setPage(1);
