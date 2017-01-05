@@ -2,10 +2,6 @@ package org.naraberri.controller;
 
 import javax.inject.Inject;
 
-import org.naraberri.domain.BoardVO;
-import org.naraberri.domain.PageMaker;
-import org.naraberri.domain.SearchCriteria;
-import org.naraberri.service.BoardService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -15,6 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.naraberri.domain.BoardVO;
+import org.naraberri.domain.PageMaker;
+import org.naraberri.domain.SearchCriteria;
+import org.naraberri.service.BoardService;
 
 @Controller
 @RequestMapping("/sboard/*")
